@@ -20,11 +20,11 @@ hr.light {
 }
 
 a {
-  color: $theme-primary;
+  //color: $theme-primary;
   @include transition-all;
   &:focus,
   &:hover {
-    color: darken($theme-primary, .1);
+    color: whitesmoke;
   }
 }
 
